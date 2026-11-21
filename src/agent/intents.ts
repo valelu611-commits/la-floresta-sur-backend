@@ -12,7 +12,7 @@ export const INTENT_RULES: IntentRule[] = [
   { slug: "camaras", keywords: ["camara", "camaras", "vigilancia", "video", "monitoreo"] },
   { slug: "comida", keywords: ["comida", "restaurante", "comer", "panaderia", "pizzeria", "asadero", "tienda", "comercio", "mercado"] },
   { slug: "veterinarias", keywords: ["veterinaria", "veterinarias", "mascota", "mascotas", "perro", "gato", "vacuna"] },
-  { slug: "localidad", keywords: ["kennedy", "localidad", "alcaldia", "upz", "barrio", "historia"] },
+  { slug: "localidad", keywords: ["kennedy", "localidad", "alcaldia", "upz", "historia"] },
   { slug: "zonas-verdes", keywords: ["parque", "parques", "zona verde", "zonas verdes", "arbol", "recreacion"] },
   { slug: "transporte", keywords: ["transmilenio", "sitp", "bus", "paradero", "estacion", "transporte", "ciclovia"] },
   { slug: "deportes", keywords: ["cancha", "deporte", "deportivo", "polideportivo", "futbol", "patinaje"] },
