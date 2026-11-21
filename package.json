@@ -1,0 +1,35 @@
+{
+  "name": "la-floresta-sur-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Dominio, servicios, ORM y capa de datos multi-motor de La Floresta Sur (Kennedy, Bogota)",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "db:migrate": "tsx src/cli/migrate.ts",
+    "db:seed": "tsx src/cli/seed.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "check:size": "node scripts/check-file-size.mjs",
+    "verify": "npm run check:size && npm run typecheck && npm test"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.10.2",
+    "@types/pg": "^8.11.10",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
