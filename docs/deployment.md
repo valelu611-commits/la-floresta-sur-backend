@@ -67,7 +67,7 @@ Guarda las URLs: las necesitarás en las variables de entorno del siguiente serv
 
 ## 4. Frontend en Vercel (gratis)
 
-1. <https://vercel.com/new> → importa `la-floresta-sur-frontend`.
+1. <https://vercel.com/new> → importa `la-floresta-sur`.
 2. Framework: **Vite**. Build: `npm run build`. Output: `dist`.
 3. Variable de entorno:
    `VITE_API_URL=https://<api>.onrender.com/api/v1`
@@ -86,7 +86,7 @@ docker compose up --build
 # API
 cd ../la-floresta-sur-api && docker compose up --build
 # frontend
-cd ../la-floresta-sur-frontend && docker compose up --build
+cd ../la-floresta-sur && docker compose up --build
 ```
 
 ## 6. Checklist de publicación
